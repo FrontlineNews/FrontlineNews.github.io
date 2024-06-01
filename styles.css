@@ -58,7 +58,6 @@ main {
 /* Article styling */
 article {
     width: 100%;
-    max-width: 800px;
     margin-bottom: 20px;
     padding: 20px;
     background: #fff;
@@ -160,4 +159,9 @@ footer {
 
 #load-more:hover {
     background-color: #555;
+}
+
+#load-more-container {
+    display: flex;
+    justify-content: center;
 }
