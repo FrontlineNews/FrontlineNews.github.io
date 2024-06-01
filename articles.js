@@ -46,6 +46,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const article = data.find((item) => item.id == articleId);
         if (article) {
           document.getElementById("article-title").textContent = article.title;
+          document.getElementById("article-content").innerHTML =
+            article.content.replace(/\n/g, "<br>");
 
           const formattedDateTime = formatDateTime(article.timestamp);
           const articleInfo = `${formattedDateTime} | ${article.author}`;
@@ -59,12 +61,21 @@ document.addEventListener("DOMContentLoaded", function () {
             tagsContainer.appendChild(tagElement);
           });
 
-          document.getElementById("article-image").src =
-            "images/" + article.image;
-
-          // Replace "\n" with HTML line breaks
-          const articleContent = document.getElementById("article-content");
-          articleContent.innerHTML = article.content.replace(/\n/g, "<br>");
+          const mediaContainer = document.getElementById("media-container");
+          if (article.video) {
+            const video = document.createElement("video");
+            video.controls = true;
+            const source = document.createElement("source");
+            source.src = "videos/" + article.video;
+            source.type = "video/mp4";
+            video.appendChild(source);
+            mediaContainer.appendChild(video);
+          } else if (article.image) {
+            const image = document.createElement("img");
+            image.src = "images/" + article.image;
+            image.alt = article.title;
+            mediaContainer.appendChild(image);
+          }
         } else {
           document.getElementById("article").innerHTML =
             "<p>Article not found.</p>";

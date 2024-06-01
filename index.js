@@ -54,11 +54,20 @@ document.addEventListener("DOMContentLoaded", function () {
           const info = document.createElement("p");
           const time = document.createElement("span");
           time.textContent = formatRelativeTime(article.timestamp);
-          info.textContent = `${time.textContent} | ${article.author} | ${article.tags.join(", ")}`;
+          info.textContent = `${time.textContent} | ${article.author}`;
+
+          const tagsContainer = document.createElement("div");
+          article.tags.forEach((tag) => {
+            const tagElement = document.createElement("span");
+            tagElement.className = "tag";
+            tagElement.textContent = tag;
+            tagsContainer.appendChild(tagElement);
+          });
 
           articleElement.appendChild(title);
           articleElement.appendChild(image);
           articleElement.appendChild(info);
+          articleElement.appendChild(tagsContainer);
 
           articlesContainer.appendChild(articleElement);
         }
@@ -76,14 +85,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("articles").innerHTML =
           "<p>Error loading articles.</p>";
       });
-  }
-
-  function initialize() {
-    loadArticles(); // Initial load
-
-    document
-      .getElementById("load-more")
-      .addEventListener("click", loadArticles);
   }
 
   initialize();
