@@ -32,9 +32,10 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       return response.json();
     })
+
     .then((data) => {
-      const article = data.find((a) => a.id === articleId);
-      if (!article) {
+      const article = data.find((article) => article.id === articleId);
+      if (article) {
         document.getElementById("article").innerHTML =
           "<p>Article not found.</p>";
         return;
