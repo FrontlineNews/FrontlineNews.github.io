@@ -35,7 +35,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     .then((data) => {
       const article = data.find((item) => item.id === articleId);
+      console.log(article);
       if (!article) {
+        console.log("Error here: ");
+        console.log(article);
         document.getElementById("article").innerHTML =
           "<p>Article not found.</p>";
         return;
