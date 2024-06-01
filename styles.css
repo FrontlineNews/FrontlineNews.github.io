@@ -69,7 +69,8 @@ article {
 
 article img {
     max-width: 100%;
-    height: auto;
+    height: 200px; /* Fixed height for images to make articles uniform */
+    object-fit: cover; /* Ensures the image covers the entire container without distortion */
     display: block;
     margin: 10px 0;
 }
@@ -150,7 +151,7 @@ footer {
 #load-more {
     display: block;
     padding: 10px 20px;
-    margin: 20px 0;
+    margin: 20px auto; /* Center the button */
     background-color: #333;
     color: #fff;
     border: none;

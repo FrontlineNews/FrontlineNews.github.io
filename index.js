@@ -107,5 +107,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.getElementById("load-more").addEventListener("click", loadArticles);
 
+  // Load initial articles
   loadArticles();
 });
