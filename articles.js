@@ -16,6 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
       return date.toLocaleString(undefined, options);
   }
 
+    // Function to display article content with new lines
+    function formatArticleContent(content) {
+      return content.split('\n').map(paragraph => `<p>${paragraph}</p>`).join('');
+    }
+
   // Load article with formatted date and time
   function loadArticle() {
       fetch('images/articles.json')
