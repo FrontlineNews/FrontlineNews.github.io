@@ -34,42 +34,43 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .then((data) => {
       const article = data.find((a) => a.id === articleId);
-      if (!article) {
-        document.getElementById("article").innerHTML =
-          "<p>Article not found.</p>";
-        return;
-      }
-
-      document.getElementById("article-title").textContent = article.title;
-      document.getElementById("article-info").textContent =
-        `${formatDateTime(article.timestamp)} | ${article.author}`;
-
-      const tagsContainer = document.getElementById("tags-container");
-      article.tags.forEach((tag) => {
-        const tagElement = document.createElement("span");
-        tagElement.className = "tag";
-        tagElement.textContent = tag;
-        tagElement.addEventListener("click", () => {
-          window.location.href = `index.html?tag=${tag}`;
+      if (article) {
+        document.getElementById("article-title").textContent = article.title;
+        document.getElementById("article-info").textContent =
+          `${formatDateTime(article.timestamp)} | ${article.author}`;
+  
+        const tagsContainer = document.getElementById("tags-container");
+        article.tags.forEach((tag) => {
+          const tagElement = document.createElement("span");
+          tagElement.className = "tag";
+          tagElement.textContent = tag;
+          tagElement.addEventListener("click", () => {
+            window.location.href = `index.html?tag=${tag}`;
+          });
+          tagsContainer.appendChild(tagElement);
         });
-        tagsContainer.appendChild(tagElement);
-      });
+  
+        const mediaContainer = document.getElementById("media-container");
+        if (article.video) {
+          const video = document.createElement("video");
+          video.src = "images/" + article.video;
+          video.controls = true;
+          mediaContainer.appendChild(video);
+        } else if (article.image) {
+          const image = document.createElement("img");
+          image.src = "images/" + article.image;
+          image.alt = article.title;
+          mediaContainer.appendChild(image);
+        }
+  
+        document.getElementById("article-content").innerHTML =
+          formatArticleContent(article.content);
 
-      const mediaContainer = document.getElementById("media-container");
-      if (article.video) {
-        const video = document.createElement("video");
-        video.src = "images/" + article.video;
-        video.controls = true;
-        mediaContainer.appendChild(video);
-      } else if (article.image) {
-        const image = document.createElement("img");
-        image.src = "images/" + article.image;
-        image.alt = article.title;
-        mediaContainer.appendChild(image);
+      
+      } else {
+        document.getElementById("article").innerHTML =
+        "<p>Article not found.</p>";
       }
-
-      document.getElementById("article-content").innerHTML =
-        formatArticleContent(article.content);
     })
     .catch((error) => {
       console.error("Error fetching the article:", error);
