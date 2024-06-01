@@ -1,4 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
+  let currentIndex = 0;
+  const articlesPerPage = 10;
+  const urlParams = new URLSearchParams(window.location.search);
+  const selectedTag = urlParams.get("tag");
+
+  // Function to format Unix timestamp to human-readable date string
+  function formatDateTime(timestamp) {
+    const date = new Date(timestamp * 1000); // Convert Unix timestamp to milliseconds
+    const options = {
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "numeric",
+      minute: "numeric",
+      hour12: true, // Use 12-hour format
+    };
+    return date.toLocaleString(undefined, options);
+  }
+
   // Function to calculate relative time (e.g., "5h ago", "1d ago")
   function formatRelativeTime(timestamp) {
     const now = Date.now() / 1000; // Convert current time to Unix timestamp
@@ -14,11 +33,6 @@ document.addEventListener("DOMContentLoaded", function () {
       return Math.floor(secondsSince / 86400) + "d ago";
     }
   }
-
-  const articlesPerPage = 10;
-  let currentIndex = 0;
-  const urlParams = new URLSearchParams(window.location.search);
-  const selectedTag = urlParams.get("tag");
 
   // Load articles with formatted relative time
   function loadArticles() {
@@ -87,5 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   }
 
-  initialize();
+  document.getElementById("load-more").addEventListener("click", loadArticles);
+
+  loadArticles();
 });
