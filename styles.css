@@ -4,6 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 /* Header styling */
@@ -42,13 +43,48 @@ nav ul li a {
 /* Main content area styling */
 main {
     padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
 }
 
 /* Article styling */
 article {
+    width: 100%;
+    max-width: 800px;
     margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+article h2 {
+    margin: 0 0 10px;
+}
+
+article p {
+    margin: 10px 0;
+}
+
+article .info {
+    font-size: 0.9em;
+    color: #666;
 }
 
 /* Media container styling for images and videos */
@@ -69,6 +105,11 @@ article {
     margin: 5px 5px 0 0;
     border-radius: 3px;
     font-size: 0.9em;
+    cursor: pointer;
+}
+
+.tag:hover {
+    background-color: #ddd;
 }
 
 /* Footer styling */
@@ -82,40 +123,30 @@ footer {
     width: 100%;
 }
 
-/* Additional styles for article elements */
-article h2 {
-    margin: 0 0 10px;
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0;
+    }
+
+    nav ul li a {
+        display: block;
+        margin: 0;
+        padding: 10px;
+    }
+
+    article {
+        padding: 15px;
+    }
 }
 
-article p {
-    margin: 10px 0;
-}
-
-article img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px 0;
-}
-
-article video {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px 0;
-}
-
-article .info {
-    font-size: 0.9em;
-    color: #666;
-}
-
-#articles {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
+/* Load more button */
 #load-more {
     display: block;
     padding: 10px 20px;
@@ -128,83 +159,4 @@ article .info {
 
 #load-more:hover {
     background-color: #555;
-}
-
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
-    header {
-        padding: 15px;
-    }
-
-    header h1 {
-        font-size: 30px;
-    }
-
-    nav ul li a {
-        font-size: 16px;
-    }
-
-    main {
-        padding: 15px;
-    }
-
-    article {
-        margin-bottom: 20px;
-    }
-
-    article h2 {
-        font-size: 22px;
-    }
-
-    article p {
-        font-size: 14px;
-    }
-
-    #load-more {
-        font-size: 16px;
-        padding: 10px 20px;
-    }
-
-    footer {
-        padding: 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        padding: 10px;
-    }
-
-    header h1 {
-        font-size: 24px;
-    }
-
-    nav ul li a {
-        font-size: 14px;
-    }
-
-    main {
-        padding: 10px;
-    }
-
-    article {
-        margin-bottom: 15px;
-    }
-
-    article h2 {
-        font-size: 20px;
-    }
-
-    article p {
-        font-size: 12px;
-    }
-
-    #load-more {
-        font-size: 14px;
-        padding: 8px 16px;
-    }
-
-    footer {
-        padding: 10px;
-    }
 }

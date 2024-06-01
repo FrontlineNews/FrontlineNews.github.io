@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
         for (let i = currentIndex; i < endIndex; i++) {
           const article = data[i];
           const articleElement = document.createElement("article");
+          articleElement.classList.add("article");
 
           const title = document.createElement("h2");
           const link = document.createElement("a");
@@ -75,6 +76,9 @@ document.addEventListener("DOMContentLoaded", function () {
             const tagElement = document.createElement("span");
             tagElement.className = "tag";
             tagElement.textContent = tag;
+            tagElement.addEventListener("click", () => {
+              window.location.href = `index.html?tag=${tag}`;
+            });
             tagsContainer.appendChild(tagElement);
           });
 
