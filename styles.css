@@ -162,5 +162,6 @@ footer {
 }
 
 #load-more-container {
+    display: flex;
     justify-content: center;
 }
