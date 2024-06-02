@@ -21,11 +21,12 @@ header h1 {
 
 .prev {
     font-size: 30px;
-    padding-left: 40%;
+    padding-left: 45%;
 }
 
 .next {
-    font-size: 10px;
+    font-size: 30px;
+    padding: 30px;
 }
 
 /* Navigation menu styling */
