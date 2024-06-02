@@ -136,19 +136,24 @@ article .info {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 150%;
     width: 50px;
     height: 50px;
     padding: 10px;
-    margin-top: -25px;
+    margin-top: 0px;
     color: black;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 30px;
     transition: 0.6s ease;
     border-radius: 50%;
     background-color: white;
     user-select: none;
-    opacity: 0;
+    opacity: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a.prev {
 }
 
 .prev {
