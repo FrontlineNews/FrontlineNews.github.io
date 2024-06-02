@@ -19,6 +19,14 @@ header h1 {
     margin: 0;
 }
 
+.prev {
+    font-size:;
+}
+
+.next {
+    font-size: left;
+}
+
 /* Navigation menu styling */
 nav ul {
     list-style: none;
@@ -131,50 +139,6 @@ article .info {
     display: block;
 }
 
-/* Slideshow Arrow Styles */
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 150%;
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-    margin-top: 0px;
-    color: black;
-    font-weight: bold;
-    font-size: 30px;
-    transition: 0.6s ease;
-    border-radius: 50%;
-    background-color: white;
-    user-select: none;
-    opacity: 1;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-a.prev {
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
-}
-
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-}
-
-.slideshow-container:hover .prev,
-.slideshow-container:hover .next {
-    opacity: 1;
-}
-
 /* Footer styling */
 footer {
     background: #333;
@@ -206,11 +170,6 @@ footer {
 
     article {
         padding: 15px;
-    }
-
-    .prev,
-    .next {
-        opacity: 1;
     }
 }
 
