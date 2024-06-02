@@ -24,31 +24,51 @@ document.addEventListener("DOMContentLoaded", function () {
       .join("");
   }
 
-  // Function to add slideshow functionality
-  function showSlides(slideIndex, mediaElements) {
-    if (mediaElements.length > 1) {
-      let slides = mediaElements;
+  // Function to create a slideshow of media items
+  function createSlideshow(media) {
+    const mediaContainer = document.getElementById("media-container");
 
-      function showSlide(n) {
-        slides.forEach((slide) => (slide.style.display = "none"));
-        slides[n].style.display = "block";
+    media.forEach((item, index) => {
+      const slide = document.createElement("div");
+      slide.className = "slide";
+      if (index === 0) slide.classList.add("active");
+
+      if (item.endsWith(".mp4")) {
+        const video = document.createElement("video");
+        video.src = "images/" + item;
+        video.controls = true;
+        slide.appendChild(video);
+      } else {
+        const img = document.createElement("img");
+        img.src = "images/" + item;
+        img.alt = "Article Media";
+        slide.appendChild(img);
       }
 
-      let currentIndex = slideIndex;
-      showSlide(currentIndex);
+      mediaContainer.appendChild(slide);
+    });
 
-      document.querySelector(".prev").addEventListener("click", () => {
-        currentIndex =
-          currentIndex === 0 ? slides.length - 1 : currentIndex - 1;
-        showSlide(currentIndex);
-      });
+    // Add navigation buttons
+    const prevButton = document.createElement("a");
+    prevButton.className = "prev";
+    prevButton.textContent = "❮";
+    prevButton.onclick = () => changeSlide(-1);
+    mediaContainer.appendChild(prevButton);
 
-      document.querySelector(".next").addEventListener("click", () => {
-        currentIndex =
-          currentIndex === slides.length - 1 ? 0 : currentIndex + 1;
-        showSlide(currentIndex);
-      });
-    }
+    const nextButton = document.createElement("a");
+    nextButton.className = "next";
+    nextButton.textContent = "❯";
+    nextButton.onclick = () => changeSlide(1);
+    mediaContainer.appendChild(nextButton);
+  }
+
+  // Function to change slide
+  let currentSlide = 0;
+  function changeSlide(n) {
+    const slides = document.querySelectorAll(".slide");
+    slides[currentSlide].classList.remove("active");
+    currentSlide = (currentSlide + n + slides.length) % slides.length;
+    slides[currentSlide].classList.add("active");
   }
 
   // Load article with formatted date and time
@@ -78,46 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
             tagsContainer.appendChild(tagElement);
           });
 
-          const mediaContainer = document.getElementById("media-container");
-          if (article.media && article.media.length > 0) {
-            article.media.forEach((media) => {
-              if (media.type === "video") {
-                const video = document.createElement("video");
-                video.src = "images/" + media.src;
-                video.controls = true;
-                video.className = "slide";
-                mediaContainer.appendChild(video);
-              } else if (media.type === "image") {
-                const image = document.createElement("img");
-                image.src = "images/" + media.src;
-                image.alt = article.title;
-                image.className = "slide";
-                mediaContainer.appendChild(image);
-              }
-            });
-
-            // Add navigation arrows if there is more than one media item
-            if (article.media.length > 1) {
-              const prev = document.createElement("a");
-              prev.className = "prev";
-              prev.innerHTML = "&#10094;";
-              mediaContainer.appendChild(prev);
-
-              const next = document.createElement("a");
-              next.className = "next";
-              next.innerHTML = "&#10095;";
-              mediaContainer.appendChild(next);
-
-              // Initialize slideshow
-              const mediaElements = Array.from(
-                mediaContainer.querySelectorAll(".slide"),
-              );
-              showSlides(0, mediaElements);
-            } else {
-              // Display the single media item
-              mediaContainer.querySelector(".slide").style.display = "block";
-            }
-          }
+          createSlideshow(article.media);
 
           document.getElementById("article-content").innerHTML =
             formatArticleContent(article.content);
