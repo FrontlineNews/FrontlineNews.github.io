@@ -96,5 +96,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
   loadMoreButton.addEventListener("click", loadArticles);
   loadArticles();
-  console.log();
 });
