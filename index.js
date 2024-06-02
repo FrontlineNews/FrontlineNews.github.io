@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to create and append article elements
   function displayArticles(articles) {
     articles.forEach((article) => {
-      const articleElement = document.createElement("div");
+      const articleElement = document.createElement("article");
       articleElement.className = "article";
 
       const titleElement = document.createElement("h2");
