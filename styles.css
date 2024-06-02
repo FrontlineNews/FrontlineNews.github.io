@@ -19,18 +19,6 @@ header h1 {
     margin: 0;
 }
 
-.prev {
-    text-align: right;
-    width: 50%;
-    display: block;
-}
-
-.next {
-    text-align: left;
-    width: 50%;
-    display: block;
-}
-
 /* Navigation menu styling */
 nav ul {
     list-style: none;
