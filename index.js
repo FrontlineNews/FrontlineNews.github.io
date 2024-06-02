@@ -76,7 +76,8 @@ document.addEventListener("DOMContentLoaded", function () {
         return response.json();
       })
       .then((data) => {
-        articlesData = data;
+        // Sort articles by timestamp in descending order
+        articlesData = data.sort((a, b) => b.timestamp - a.timestamp);
         const filteredArticles = tagFilter
           ? articlesData.filter((article) => article.tags.includes(tagFilter))
           : articlesData;
