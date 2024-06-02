@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const urlParams = new URLSearchParams(window.location.search);
   const tagFilter = urlParams.get("tag");
 
-  const articlesContainer = document.getElementById("articles-container");
+  const articlesContainer = document.getElementById("articles");
   const loadMoreButton = document.getElementById("load-more");
   let articlesData = [];
   let displayedArticles = 0;
