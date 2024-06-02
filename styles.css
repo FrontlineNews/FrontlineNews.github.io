@@ -1,126 +1,157 @@
-/* General styling for the body */
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Header styling */
 header {
-    background: #333;
+    width: 100%;
+    background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
-}
-
-/* Navigation menu styling */
-nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-    background: #444;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
+nav a {
     color: #fff;
+    margin: 0 10px;
     text-decoration: none;
-    padding: 10px 15px;
-    display: inline-block;
 }
 
-/* Main content area styling */
-main {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+nav a:hover {
+    text-decoration: underline;
 }
 
-#articles {
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Index Page Styles */
+#articles-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 20px;
     width: 100%;
-    max-width: 800px;
 }
 
-/* Article styling */
-article {
-    width: 100%;
-    max-width: 800px;
-    margin-bottom: 20px;
-    padding: 20px;
-    background: #fff;
+.article {
     border: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
 }
 
-article img {
+.article:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article img {
     max-width: 100%;
     height: auto;
-    display: block;
-    margin: 10px 0;
+    margin-top: 10px;
 }
 
-article h2 {
-    margin: 0 0 10px;
-}
-
-article p {
-    margin: 10px 0;
-}
-
-article .info {
+.article-info {
     font-size: 0.9em;
     color: #666;
 }
 
-/* Media container styling for images and videos */
-#media-container img,
-#media-container video {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+.tags-container {
+    margin-top: 10px;
 }
 
-/* Tag styling */
 .tag {
     display: inline-block;
-    background-color: #f1f1f1;
-    color: #333;
+    background-color: #007bff;
+    color: #fff;
     padding: 5px 10px;
-    margin: 5px 5px 0 0;
     border-radius: 3px;
-    font-size: 0.9em;
+    margin-right: 5px;
     cursor: pointer;
 }
 
 .tag:hover {
-    background-color: #ddd;
+    background-color: #0056b3;
 }
 
-/* Footer styling */
+/* Article Page Styles */
+#article {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#media-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#media-container img,
+#media-container video {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img,
+.slide video {
+    width: 100%;
+}
+
+.active {
+    display: block;
+}
+
+/* Load More Button Styles */
+#load-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#load-more-container {
+    display: flex;
+    justify-content: center;
+}
+
+#load-more:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
 footer {
-    background: #333;
+    width: 100%;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    margin-top: 20px;
     position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
 /* Responsive design for smaller screens */
@@ -144,24 +175,4 @@ footer {
     article {
         padding: 15px;
     }
-}
-
-/* Load more button */
-#load-more {
-    display: block;
-    padding: 10px 20px;
-    margin: 20px 0;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-#load-more:hover {
-    background-color: #555;
-}
-
-#load-more-container {
-    display: flex;
-    justify-content: center;
 }

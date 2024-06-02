@@ -6,7 +6,7 @@
     "platform": "X",
     "author": "Visegrád 24",
     "tags": ["Ukraine War", "Oil", "Military"],
-    "image": "image1.jpg",
+    "media": ["image1.jpg"],
     "content": "Ukraine has reportedly used Neptune Anti-Ship missiles to strike an oil terminal situated in the Kavkaz port in Russia. The Kavkaz port is the second largest port owned by Russia in the Black Sea. In addition to the port, Ukraine also struck a ferry crossing in the Krasnodar region using the Neptue Anti-Ship missiles. \n \n Nearby in the city of Temryuk an oil depot was also struck by Ukranian drones. "
   },
   {
@@ -16,7 +16,7 @@
     "platform": "X",
     "author": "Visegrád 24",
     "tags": ["Police", "France", "Football", "Olympics"],
-    "image": "image2.jpg",
+    "media": ["image2.jpg"],
     "content": "A spokesperson from the French government has stated that the police have foiled a planned terror attack against the football matches taking place at this summer's Paris Olympics"
   },
   {
@@ -26,7 +26,7 @@
     "platform": "X",
     "author": "BLYSKAVKA",
     "tags": ["Ukraine War", "Military"],
-    "image": "image3.jpg",
+    "media": ["image3.jpg"],
     "content": "The commander of the Ground Forces of the Ukranian Armed Forces, Oleksandr Pavliuk, announced on the 31st of May that during the month of May, Air Defense Forces of the Ground Forces of Ukraine destroyed 218 means of aerial reconnaissance and attack belonging to Russia. These are broken down in the graphic displayed above."
   },
   {
@@ -36,7 +36,7 @@
     "platform": "X",
     "author": "The Kyiv Independent",
     "tags": ["Ukraine War", "Kharkiv", "Military"],
-    "image": "image4.jpg",
+    "media": ["image4.jpg"],
     "content": "Despite the intensifying of attacks on the North-Eastern Ukranian city of Kharkiv by Russia, Some residents on Ukraine's now front-line town are refusing to evacuate. \n \n On May 10th, Russia began a new offensive in the North of Ukraine, with what appears to be an attempt to take Ukraine's second largest city, Kharkiv. Although, Russian troops have not reached the city yet, they have made gains since the start of the new offensive by controlling a confirmed 173.36 km² of land in the North and have recently begun shelling the city. \n \n The Kyiv Independent has reported that some residents are refusing to evacuate the city, despite the danger, as they have adopted this war time environment into their way of life. One person reported asking a friend who is a resident of Kharkiv why they haven't left yet, to which they responded that 'I sowed the garden, but I'm in trouble, a rocket fell on the garden. So now I don't sow half the garden because the rocket is sticking out of the ground and it hasn't been neutralized yet. So I don't go close, but sow everything in front of the rocket'. 'That's how they live', the lady told The Counteroffensive, with a smile on her face. \n \n According to the head of the Bilopillia community, Yurii Zarko, it's mostly the elderly who are refusing to leave the city. They often argue that they were born here, this is their land their parents and grandparents lived here, and so they will die here. Some people are also used to living off their farmland and don't want to try living elsewhere, the Kyiv Independent stated."
   },
   {
@@ -46,7 +46,7 @@
     "platform": "X",
     "author": "The Kyiv Independent",
     "tags": ["Ukraine War", "Volodymyr Zelenskyy", "Military"],
-    "image": "image5.jpg",
+    "media": ["image5.jpg"],
     "content": "Zelenskyy states that Ukraine have 'never stopped mobilizing' since the invasion begun but that since the new conscription law came into effect, mobilsation 'has increased'. \n \n These comments come from Ukranian President Zelensky as he spoke in Stockholm today."
   },
   {
@@ -56,7 +56,7 @@
     "platform": "Reuters + X",
     "author": "Reuters + Anton Gerashchenko",
     "tags": ["Ukraine War", "USA", "Military"],
-    "image": "image6.jpg",
+    "media": ["image6.jpg"],
     "content": "U.S. President Joe Biden approved Ukraine using U.S. weapons to strike targets inside Russia that were attacking the Ukrainian city of Kharkiv, after Kyiv sought authorization from Washington in recent weeks, U.S. Secretary of State Antony Blinken confirmed on Friday. Reuters stated. \n \n Front-line news also understands that Antony Blinken, the US Secretary of State has stated that U.S. President Joe Biden approved Ukraine using U.S. weapons to strike targets inside Russia that were attacking the Ukrainian city of Kharkiv. Blinked stated that: \n \n 'Over the past few weeks, Ukraine came to us and asked for the authorization to use weapons that we're providing to defend against this aggression, including against Russian forces that are massing on the Russian side of the border and then attacking into Ukraine. And that went right to the President, and as you've heard, he's approved use of our weapons for that purpose'. \n \n This new policy will allow Ukranian military personnel to fire artillery and short-range rockets from HIMARS rocket launchers against command posts, arms depots, and other assets in Russian territory that are being used by Russian forces to carry out attacks on Kharkiv in northeastern Ukraine. \n \n However, this does not grant Ukraine permission to fire longer-range ATACMS surface-to-surface missiles inside of Russia."
   },
   {
@@ -66,7 +66,7 @@
     "platform": "X",
     "author": "OSINTdefender",
     "tags": ["North Korea", "Military"],
-    "image": "image7.jpg",
+    "media": ["image7.jpg"],
     "content": "North Korea have relased a video showing the launch of 18 KN-25 Short-Range Ballistic Missile (SRBM) from Pyongyang International Airport by the 3rd Battalion of 331st Red Flag Artillery Regiment. The missiles were fired towards an Island of the Northeastern coast. \n \n Yesterday it was reported by Yonhap that North Korea had launched 10 Short-Range Ballistic Missiles (SRBM) from Sunan (North of Pyongyang) 217 miles (350 km) East into the East Sea. \n \n Although the motive for these strikes is unclear Yonhap described the launches as tests of 'Saturation Strikes' and as a way of advertising arms for Russia. Front-line news is still investigating the situation and the claims surrounding the motive behind the launches."
   },
   {
@@ -81,7 +81,7 @@
       "South Africa",
       "South African Elections"
     ],
-    "image": "image8.jpg",
+    "media": ["image8.jpg"],
     "content": "South Africa was set to end three decades of African National Congress (ANC) dominance in local elections on Saturday, with the party of Nelson Mandela facing a tough challenge from the opposition Democratic Alliance (DA) and the Economic Freedom Fighters (EFF). \n \n The ANC has been in power since. \n \n Voters are angry at joblessness, inequality and power shortages and as a result the share of vote for the African National Congress fell to 40% from 57.5% from the previous election in 2019."
   },
   {
@@ -91,7 +91,7 @@
     "platform": "Ground News + The Japan News",
     "author": "Ground News + The Japan News",
     "tags": ["Germany", "Military", "Ukraine War"],
-    "image": "image9.jpg",
+    "media": ["image9.jpg"],
     "content": "Following lead of the United States, Berlin has granted Ukraine permission to use German-supplied weapons to strike targets in Russia. \n \n They stated that Kyiv has the right to defend itself under international law, including through the use of weapons provided by Germany. \n \n The Japan News reported that this move brings a significant policy change as depleted Ukranian troops are loosing ground in the war."
   },
   {
@@ -101,7 +101,7 @@
     "platform": "Telegram",
     "author": "Denys Davydov",
     "tags": ["Ukraine War", "Military", "Sweeden"],
-    "image": "image10.jpg",
+    "media": ["image10.jpg"],
     "content": "The number of PBF 302 IFV that Sweeden will deliver to Ukraine has been confirmed to be 239. \n \n  Pansarbandvagn 302 (PBV 302) is an Sweedish made infantry fighting vehicle (IFV). It was commisioned by the Sweedish Army in 1961 as a modern IFV design and could be used to replace the PBV 301 IFV. The IFV weighs around 14 tonnes is 5.35m long, 2.86m wide, and 2.50m in height. It can hold 3 crew (commander, driver, gunner), and hold an additional 8 passengers."
   },
   {
@@ -111,7 +111,7 @@
     "platform": "Telegram",
     "author": "Denys Davydov",
     "tags": ["Ukraine War", "Military", "Drone Strike"],
-    "image": "image11.jpg",
+    "media": ["image11.jpg"],
     "content": "Last night Russia launched a large strike on Ukranian energy facilities. \n \n Time Line: \n 20:40 - launch of 'Shahed' UAV \n 22:40 - departure of 4 Russian Ty-95 bombers \n 02:20 - launch of cruise missiles type 'X-101/55SM' from Engels district \n \n Denys Davydov a former Ukranian commercial pilot who now publishes daily updates on the war from a Ukranian perspective to his social media said that the strike was 'once again aimed at damaging our energy sector: energy facilities in Zaporizhia, Dnipropetrovsk, Donetsk, Kirovohrad, and Ivano-Frankivsk regions were attacked'. \n \n A spokesperson from the Ukranian Air Force stated that 35/53 missiles were shot down and 46/47 Shaheds were also shot down. However, they also stated that they failed to intercept 5 Kh-101/Kh-555 cruise missiles, 6 Kalibr cruise missiles, 4 Iskander-M ballistic missiles, 3 Kh-59/Kh-69 guided air missiles, and 1 Shahed drone."
   },
   {
@@ -121,8 +121,7 @@
     "platform": "Telegram",
     "author": "Denys Davydov",
     "tags": ["UK", "Police", "Protests"],
-    "image": "image12.jpg",
-    "video": "video1.mp4",
+    "media": ["image12.jpg", "video1.mp4"],
     "content": "Sky News reports that there is a heavy police presence in London as the Champions Leage final draws closer. They state in their article that the MET has over 2,000 officers on duty across London today to monitor fan events ahead of the Champions League final at Wembely and at several protests. \n \n Additionally, a protest led my former EDL leader Tommy Robinson is being held at Whitehall under the name 'Stand Up To Racism' at 1pm. The counter-protest to this began at midday. Sky News reports that 'Both protests are ongoing and police have set up a 'buffer zone' between Parliament Square, where Robinson and his supporters have been making speeches, and Downing Street, where the counter protesters are.' \n \n Tommy Robinsons posted on his X account at 2:07PM that 'London is a sea of red, white and blue 💙 🇬🇧' and again later at 2:28PM stating that 'London belongs to us 🇬🇧'."
   },
   {
@@ -139,7 +138,7 @@
       "F-16",
       "Military"
     ],
-    "image": "image13.jpg",
+    "media": ["image13.jpg"],
     "content": "Belgium has announced that they will not allow Ukraine to use the 30 F-16 fighter jets they provided to strike targets inside of Russia. This includes the area near Kharkiv. \n \n One Pro-Ukranian X account 'Ukraine Battle Map' stated that 'Belgium 🇧🇪 is living in the “fear of escalation” world that Russia wants'. The same account also stated that despite Belgium's reluctance, the Netherlands and Denmark have given the greenlight for their F-16 fighter jets to be used to strike inside of Russia. "
   }
 ]

@@ -1,40 +1,72 @@
 document.addEventListener("DOMContentLoaded", function () {
-  let currentIndex = 0;
-  const articlesPerPage = 10;
   const urlParams = new URLSearchParams(window.location.search);
-  const selectedTag = urlParams.get("tag");
+  const tagFilter = urlParams.get("tag");
 
-  // Function to format Unix timestamp to human-readable date string
-  function formatDateTime(timestamp) {
-    const date = new Date(timestamp * 1000); // Convert Unix timestamp to milliseconds
-    const options = {
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-      hour: "numeric",
-      minute: "numeric",
-      hour12: true, // Use 12-hour format
-    };
-    return date.toLocaleString(undefined, options);
-  }
+  const articlesContainer = document.getElementById("articles-container");
+  const loadMoreButton = document.getElementById("load-more");
+  let articlesData = [];
+  let displayedArticles = 0;
 
-  // Function to calculate relative time (e.g., "5h ago", "1d ago")
-  function formatRelativeTime(timestamp) {
-    const now = Date.now() / 1000; // Convert current time to Unix timestamp
-    const secondsSince = now - timestamp;
+  // Function to format Unix timestamp to "time ago" string
+  function timeAgo(timestamp) {
+    const now = new Date();
+    const secondsPast = now.getTime() / 1000 - timestamp;
 
-    if (secondsSince < 60) {
-      return Math.floor(secondsSince) + "s ago";
-    } else if (secondsSince < 3600) {
-      return Math.floor(secondsSince / 60) + "m ago";
-    } else if (secondsSince < 86400) {
-      return Math.floor(secondsSince / 3600) + "h ago";
+    if (secondsPast < 60) {
+      return `${Math.round(secondsPast)}s ago`;
+    } else if (secondsPast < 3600) {
+      return `${Math.round(secondsPast / 60)}m ago`;
+    } else if (secondsPast < 86400) {
+      return `${Math.round(secondsPast / 3600)}h ago`;
     } else {
-      return Math.floor(secondsSince / 86400) + "d ago";
+      return `${Math.round(secondsPast / 86400)}d ago`;
     }
   }
 
-  // Load articles with formatted relative time
+  // Function to create and append article elements
+  function displayArticles(articles) {
+    articles.forEach((article) => {
+      const articleElement = document.createElement("div");
+      articleElement.className = "article";
+
+      const titleElement = document.createElement("h2");
+      titleElement.textContent = article.title;
+      articleElement.appendChild(titleElement);
+
+      const infoElement = document.createElement("p");
+      infoElement.className = "article-info";
+      infoElement.textContent = `${timeAgo(article.timestamp)} | ${article.author}`;
+      articleElement.appendChild(infoElement);
+
+      const tagsContainer = document.createElement("div");
+      tagsContainer.className = "tags-container";
+      article.tags.forEach((tag) => {
+        const tagElement = document.createElement("span");
+        tagElement.className = "tag";
+        tagElement.textContent = tag;
+        tagElement.addEventListener("click", () => {
+          window.location.href = `index.html?tag=${tag}`;
+        });
+        tagsContainer.appendChild(tagElement);
+      });
+      articleElement.appendChild(tagsContainer);
+
+      if (article.media && article.media.length > 0) {
+        const imgElement = document.createElement("img");
+        imgElement.src = "images/" + article.media[0];
+        imgElement.alt = article.title;
+        articleElement.appendChild(imgElement);
+      }
+
+      articleElement.addEventListener("click", () => {
+        window.location.href = `article.html?id=${article.id}`;
+      });
+
+      articlesContainer.appendChild(articleElement);
+    });
+  }
+
+  // Load articles with optional tag filtering
   function loadArticles() {
     fetch("images/articles.json")
       .then((response) => {
@@ -44,69 +76,24 @@ document.addEventListener("DOMContentLoaded", function () {
         return response.json();
       })
       .then((data) => {
-        if (selectedTag) {
-          data = data.filter((article) => article.tags.includes(selectedTag));
-        }
-        data.sort((a, b) => b.timestamp - a.timestamp); // Sort articles by Unix timestamp, newest first
+        articlesData = data;
+        const filteredArticles = tagFilter
+          ? articlesData.filter((article) => article.tags.includes(tagFilter))
+          : articlesData;
+        displayArticles(
+          filteredArticles.slice(displayedArticles, displayedArticles + 10),
+        );
+        displayedArticles += 10;
 
-        const articlesContainer = document.getElementById("articles");
-        const endIndex = Math.min(currentIndex + articlesPerPage, data.length);
-        for (let i = currentIndex; i < endIndex; i++) {
-          const article = data[i];
-          const articleElement = document.createElement("article");
-          articleElement.classList.add("article");
-
-          const title = document.createElement("h2");
-          const link = document.createElement("a");
-          link.href = `article.html?id=${article.id}`;
-          link.textContent = article.title;
-          title.appendChild(link);
-
-          const image = document.createElement("img");
-          image.src = "images/" + article.image;
-          image.alt = article.title;
-
-          const info = document.createElement("p");
-          const time = document.createElement("span");
-          time.textContent = formatRelativeTime(article.timestamp);
-          info.textContent = `${time.textContent} | ${article.author}`;
-
-          const tagsContainer = document.createElement("div");
-          article.tags.forEach((tag) => {
-            const tagElement = document.createElement("span");
-            tagElement.className = "tag";
-            tagElement.textContent = tag;
-            tagElement.addEventListener("click", () => {
-              window.location.href = `index.html?tag=${tag}`;
-            });
-            tagsContainer.appendChild(tagElement);
-          });
-
-          articleElement.appendChild(title);
-          articleElement.appendChild(image);
-          articleElement.appendChild(info);
-          articleElement.appendChild(tagsContainer);
-
-          articlesContainer.appendChild(articleElement);
-        }
-
-        currentIndex += articlesPerPage;
-
-        if (currentIndex >= data.length) {
-          document.getElementById("load-more").style.display = "none";
-        } else {
-          document.getElementById("load-more").style.display = "block";
+        if (displayedArticles >= filteredArticles.length) {
+          loadMoreButton.style.display = "none";
         }
       })
       .catch((error) => {
-        console.error("Error fetching the articles:", error);
-        document.getElementById("articles").innerHTML =
-          "<p>Error loading articles.</p>";
+        console.error("Error fetching articles:", error);
       });
   }
 
-  document.getElementById("load-more").addEventListener("click", loadArticles);
-
-  // Load initial articles
+  loadMoreButton.addEventListener("click", loadArticles);
   loadArticles();
 });
