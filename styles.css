@@ -95,3 +95,57 @@ nav ul li a {
 .active {
     display: block;
 }
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0;
+    }
+
+    nav ul li a {
+        display: block;
+        margin: 0;
+        padding: 10px;
+    }
+
+    article {
+        padding: 15px;
+    }
+}
+
+/* Load more button */
+#load-more {
+    display: block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#load-more:hover {
+    background-color: #555;
+}
+
+#load-more-container {
+    display: flex;
+    justify-content: center;
+}
