@@ -1,14 +1,16 @@
-/* General Styles */
+/* General styling for the body */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
 
+/* Header styling */
 header {
-    background-color: #333;
-    color: white;
+    background: #333;
+    color: #fff;
     padding: 10px 0;
     text-align: center;
 }
@@ -17,63 +19,97 @@ header h1 {
     margin: 0;
 }
 
+/* Navigation menu styling */
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
+    text-align: center;
+    background: #444;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin-right: 10px;
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
+/* Main content area styling */
+main {
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-.article {
-    background-color: white;
+#articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Article styling */
+article {
+    width: 100%;
+    max-width: 800px;
     margin-bottom: 20px;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
-.article img {
+article img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 10px 0;
 }
 
-.article-info {
+article h2 {
+    margin: 0 0 10px;
+}
+
+article p {
+    margin: 10px 0;
+}
+
+article .info {
     font-size: 0.9em;
     color: #666;
 }
 
-.tags-container {
-    margin-top: 10px;
+/* Media container styling for images and videos */
+#media-container img,
+#media-container video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
+/* Tag styling */
 .tag {
     display: inline-block;
-    background-color: #007bff;
-    color: white;
+    background-color: #f1f1f1;
+    color: #333;
     padding: 5px 10px;
-    margin-right: 5px;
+    margin: 5px 5px 0 0;
     border-radius: 3px;
+    font-size: 0.9em;
     cursor: pointer;
 }
 
 .tag:hover {
-    background-color: #0056b3;
+    background-color: #ddd;
 }
 
 /* Slideshow Styles */
@@ -95,34 +131,15 @@ nav ul li a {
     display: block;
 }
 
-/* Load More Button Styles */
-#load-more-container {
-    text-align: center;
-    margin: 20px 0;
-}
-
-#load-more {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-#load-more:hover {
-    background-color: #0056b3;
-}
-
-/* Footer Styles */
+/* Footer styling */
 footer {
-    background-color: #333;
+    background: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    margin-top: 20px;
     position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Responsive design for smaller screens */
@@ -146,4 +163,24 @@ footer {
     article {
         padding: 15px;
     }
+}
+
+/* Load more button */
+#load-more {
+    display: block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#load-more:hover {
+    background-color: #555;
+}
+
+#load-more-container {
+    display: flex;
+    justify-content: center;
 }
