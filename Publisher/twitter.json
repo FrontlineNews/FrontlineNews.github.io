@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "Name": "Military Summary",
+    "Belief": "Pro-Russian",
+    "Stance": "Right Wing",
+    "Factuality": "High"
+  },
+  {
+    "id": 2,
+    "Name": "The Kyiv Independent",
+    "Belief": "Pro-Ukranian",
+    "Stance": "Lean Left",
+    "Factuality": "High"
+  }
+]

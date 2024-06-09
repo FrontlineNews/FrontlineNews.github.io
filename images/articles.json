@@ -1,184 +1,591 @@
 [
-  {
-    "id": 1,
-    "title": "Ukraine strikes oil terminal and ferry crossing in Krasnador",
-    "timestamp": 1717146540,
-    "platform": "X",
-    "author": "Visegrád 24",
-    "tags": ["Ukraine War", "Oil", "Military"],
-    "media": ["image1.jpg"],
-    "content": "Ukraine has reportedly used Neptune Anti-Ship missiles to strike an oil terminal situated in the Kavkaz port in Russia. The Kavkaz port is the second largest port owned by Russia in the Black Sea. In addition to the port, Ukraine also struck a ferry crossing in the Krasnodar region using the Neptue Anti-Ship missiles. \n \n Nearby in the city of Temryuk an oil depot was also struck by Ukranian drones. "
-  },
-  {
-    "id": 2,
-    "title": "French Government Foil Football Terrorist Attack",
-    "timestamp": 1717166400,
-    "platform": "X",
-    "author": "Visegrád 24",
-    "tags": ["Police", "France", "Football", "Olympics"],
-    "media": ["image2.jpg"],
-    "content": "A spokesperson from the French government has stated that the police have foiled a planned terror attack against the football matches taking place at this summer's Paris Olympics"
-  },
-  {
-    "id": 3,
-    "title": "Ukraine May Aerial Reconnaissance Attack Statistics",
-    "timestamp": 1717167960,
-    "platform": "X",
-    "author": "BLYSKAVKA",
-    "tags": ["Ukraine War", "Military"],
-    "media": ["image3.jpg"],
-    "content": "The commander of the Ground Forces of the Ukranian Armed Forces, Oleksandr Pavliuk, announced on the 31st of May that during the month of May, Air Defense Forces of the Ground Forces of Ukraine destroyed 218 means of aerial reconnaissance and attack belonging to Russia. These are broken down in the graphic displayed above."
-  },
-  {
-    "id": 4,
-    "title": "Some Ukrainian Residents Refusing to Evacuate Kharkiv",
-    "timestamp": 1717168320,
-    "platform": "X",
-    "author": "The Kyiv Independent",
-    "tags": ["Ukraine War", "Kharkiv", "Military"],
-    "media": ["image4.jpg"],
-    "content": "Despite the intensifying of attacks on the North-Eastern Ukranian city of Kharkiv by Russia, Some residents on Ukraine's now front-line town are refusing to evacuate. \n \n On May 10th, Russia began a new offensive in the North of Ukraine, with what appears to be an attempt to take Ukraine's second largest city, Kharkiv. Although, Russian troops have not reached the city yet, they have made gains since the start of the new offensive by controlling a confirmed 173.36 km² of land in the North and have recently begun shelling the city. \n \n The Kyiv Independent has reported that some residents are refusing to evacuate the city, despite the danger, as they have adopted this war time environment into their way of life. One person reported asking a friend who is a resident of Kharkiv why they haven't left yet, to which they responded that 'I sowed the garden, but I'm in trouble, a rocket fell on the garden. So now I don't sow half the garden because the rocket is sticking out of the ground and it hasn't been neutralized yet. So I don't go close, but sow everything in front of the rocket'. 'That's how they live', the lady told The Counteroffensive, with a smile on her face. \n \n According to the head of the Bilopillia community, Yurii Zarko, it's mostly the elderly who are refusing to leave the city. They often argue that they were born here, this is their land their parents and grandparents lived here, and so they will die here. Some people are also used to living off their farmland and don't want to try living elsewhere, the Kyiv Independent stated."
-  },
-  {
-    "id": 5,
-    "title": "Ukraine has 'never stopped mobilizing' says Zelenskyy",
-    "timestamp": 1717169280,
-    "platform": "X",
-    "author": "The Kyiv Independent",
-    "tags": ["Ukraine War", "Volodymyr Zelenskyy", "Military"],
-    "media": ["image5.jpg"],
-    "content": "Zelenskyy states that Ukraine have 'never stopped mobilizing' since the invasion begun but that since the new conscription law came into effect, mobilsation 'has increased'. \n \n These comments come from Ukranian President Zelensky as he spoke in Stockholm today."
-  },
-  {
-    "id": 6,
-    "title": "US Approves use of weaponry in Russia by Ukraine",
-    "timestamp": 1717163040,
-    "platform": "Reuters + X",
-    "author": "Reuters + Anton Gerashchenko",
-    "tags": ["Ukraine War", "USA", "Military"],
-    "media": ["image6.jpg"],
-    "content": "U.S. President Joe Biden approved Ukraine using U.S. weapons to strike targets inside Russia that were attacking the Ukrainian city of Kharkiv, after Kyiv sought authorization from Washington in recent weeks, U.S. Secretary of State Antony Blinken confirmed on Friday. Reuters stated. \n \n Front-line news also understands that Antony Blinken, the US Secretary of State has stated that U.S. President Joe Biden approved Ukraine using U.S. weapons to strike targets inside Russia that were attacking the Ukrainian city of Kharkiv. Blinked stated that: \n \n 'Over the past few weeks, Ukraine came to us and asked for the authorization to use weapons that we're providing to defend against this aggression, including against Russian forces that are massing on the Russian side of the border and then attacking into Ukraine. And that went right to the President, and as you've heard, he's approved use of our weapons for that purpose'. \n \n This new policy will allow Ukranian military personnel to fire artillery and short-range rockets from HIMARS rocket launchers against command posts, arms depots, and other assets in Russian territory that are being used by Russian forces to carry out attacks on Kharkiv in northeastern Ukraine. \n \n However, this does not grant Ukraine permission to fire longer-range ATACMS surface-to-surface missiles inside of Russia."
-  },
-  {
-    "id": 7,
-    "title": "North Korea release footage of ballistic missile launch",
-    "timestamp": 1717174980,
-    "platform": "X",
-    "author": "OSINTdefender",
-    "tags": ["North Korea", "Military"],
-    "media": ["image7.jpg"],
-    "content": "North Korea have relased a video showing the launch of 18 KN-25 Short-Range Ballistic Missile (SRBM) from Pyongyang International Airport by the 3rd Battalion of 331st Red Flag Artillery Regiment. The missiles were fired towards an Island of the Northeastern coast. \n \n Yesterday it was reported by Yonhap that North Korea had launched 10 Short-Range Ballistic Missiles (SRBM) from Sunan (North of Pyongyang) 217 miles (350 km) East into the East Sea. \n \n Although the motive for these strikes is unclear Yonhap described the launches as tests of 'Saturation Strikes' and as a way of advertising arms for Russia. Front-line news is still investigating the situation and the claims surrounding the motive behind the launches."
-  },
-  {
-    "id": 8,
-    "title": "South Africa election to end three decades of ANC dominance",
-    "timestamp": 1717237232,
-    "platform": "Reuters",
-    "author": "Reuters",
-    "tags": [
-      "Politics",
-      "Elections",
-      "South Africa",
-      "South African Elections"
-    ],
-    "media": ["image8.jpg"],
-    "content": "South Africa was set to end three decades of African National Congress (ANC) dominance in local elections on Saturday, with the party of Nelson Mandela facing a tough challenge from the opposition Democratic Alliance (DA) and the Economic Freedom Fighters (EFF). \n \n The ANC has been in power since. \n \n Voters are angry at joblessness, inequality and power shortages and as a result the share of vote for the African National Congress fell to 40% from 57.5% from the previous election in 2019."
-  },
-  {
-    "id": 9,
-    "title": "Berlin gives Ukraine permission to fire German weapons into Russia",
-    "timestamp": 1717239522,
-    "platform": "Ground News + The Japan News",
-    "author": "Ground News + The Japan News",
-    "tags": ["Germany", "Military", "Ukraine War"],
-    "media": ["image9.jpg"],
-    "content": "Following lead of the United States, Berlin has granted Ukraine permission to use German-supplied weapons to strike targets in Russia. \n \n They stated that Kyiv has the right to defend itself under international law, including through the use of weapons provided by Germany. \n \n The Japan News reported that this move brings a significant policy change as depleted Ukranian troops are loosing ground in the war."
-  },
-  {
-    "id": 10,
-    "title": "Sweden to send 239 PBV 302 IFV to Ukraine",
-    "timestamp": 1717248282,
-    "platform": "Telegram",
-    "author": "Denys Davydov",
-    "tags": ["Ukraine War", "Military", "Sweden"],
-    "media": ["image10.jpg"],
-    "content": "The number of PBF 302 IFV that Sweden will deliver to Ukraine has been confirmed to be 239. \n \n  Pansarbandvagn 302 (PBV 302) is an Sweedish made infantry fighting vehicle (IFV). It was commisioned by the Sweedish Army in 1961 as a modern IFV design and could be used to replace the PBV 301 IFV. The IFV weighs around 14 tonnes is 5.35m long, 2.86m wide, and 2.50m in height. It can hold 3 crew (commander, driver, gunner), and hold an additional 8 passengers."
-  },
-  {
-    "id": 11,
-    "title": "Russia uses missiles and drones to target Ukrainian energy facilities",
-    "timestamp": 1717248906,
-    "platform": "Telegram",
-    "author": "Denys Davydov",
-    "tags": ["Ukraine War", "Military", "Drone Strike"],
-    "media": ["image11.jpg"],
-    "content": "Last night Russia launched a large strike on Ukranian energy facilities. \n \n Time Line: \n 20:40 - launch of 'Shahed' UAV \n 22:40 - departure of 4 Russian Ty-95 bombers \n 02:20 - launch of cruise missiles type 'X-101/55SM' from Engels district \n \n Denys Davydov a former Ukranian commercial pilot who now publishes daily updates on the war from a Ukranian perspective to his social media said that the strike was 'once again aimed at damaging our energy sector: energy facilities in Zaporizhia, Dnipropetrovsk, Donetsk, Kirovohrad, and Ivano-Frankivsk regions were attacked'. \n \n A spokesperson from the Ukranian Air Force stated that 35/53 missiles were shot down and 46/47 Shaheds were also shot down. However, they also stated that they failed to intercept 5 Kh-101/Kh-555 cruise missiles, 6 Kalibr cruise missiles, 4 Iskander-M ballistic missiles, 3 Kh-59/Kh-69 guided air missiles, and 1 Shahed drone."
-  },
-  {
-    "id": 12,
-    "title": "Heavy police presence due to Tommy Robinson march",
-    "timestamp": 1717262201,
-    "platform": "Telegram",
-    "author": "Denys Davydov",
-    "tags": ["UK", "Police", "Protests"],
-    "media": ["image12.jpg", "video1.mp4"],
-    "content": "Sky News reports that there is a heavy police presence in London as the Champions Leage final draws closer. They state in their article that the MET has over 2,000 officers on duty across London today to monitor fan events ahead of the Champions League final at Wembely and at several protests. \n \n Additionally, a protest led my former EDL leader Tommy Robinson is being held at Whitehall under the name 'Stand Up To Racism' at 1pm. The counter-protest to this began at midday. Sky News reports that 'Both protests are ongoing and police have set up a 'buffer zone' between Parliament Square, where Robinson and his supporters have been making speeches, and Downing Street, where the counter protesters are.' \n \n Tommy Robinsons posted on his X account at 2:07PM that 'London is a sea of red, white and blue 💙 🇬🇧' and again later at 2:28PM stating that 'London belongs to us 🇬🇧'."
-  },
-  {
-    "id": 13,
-    "title": "Belgium prevent Ukraine from striking targets inside of Russia with F-16 fighter",
-    "timestamp": 1717264837,
-    "platform": "X",
-    "author": "Visegrád 24 + Other X Sources",
-    "tags": [
-      "Ukraine War",
-      "Belgium",
-      "Netherlands",
-      "Denmark",
-      "F-16",
-      "Military"
-    ],
-    "media": ["image13.jpg"],
-    "content": "Belgium has announced that they will not allow Ukraine to use the 30 F-16 fighter jets they provided to strike targets inside of Russia. This includes the area near Kharkiv. \n \n One Pro-Ukranian X account 'Ukraine Battle Map' stated that 'Belgium 🇧🇪 is living in the “fear of escalation” world that Russia wants'. The same account also stated that despite Belgium's reluctance, the Netherlands and Denmark have given the greenlight for their F-16 fighter jets to be used to strike inside of Russia. "
-  },
-  {
-    "id": 14,
-    "title": "Ukraine uses US supplied HIMARS to strike inside of Russia",
-    "timestamp": 1717334443,
-    "platform": "X + Telegram",
-    "author": "Frontline News",
-    "tags": ["Ukraine War", "Russia", "Ukraine", "HIMARS", "Military"],
-    "media": [
-      "image18.jpg",
-      "video2.mp4",
-      "video4.mp4",
-      "video5.mp4",
-      "image14.jpg",
-      "image15.jpg",
-      "image16.jpg",
-      "image17.jpg",
-      "video3.mp4"
-    ],
-    "content": "Tendar, a pro-Ukranian account on X stated that 'A Russian supply base in the industrial district of Shebekino, Belgorod Region, Russia, was wiped out this morning. In the debris field,  parts of a missiles can be seen. Russian propaganda initially claimed that a civilian market was hit, but the location is neither civilian nor the debris seen on the pictures'. The images they are referencing are shown on slides 5-8. \n \n Actual footage that has been verified from the strike has been posted online by X account OSINTdefender, this includes three sepereate videos. The first is shown on slide 2 and shows a short clip of HIMARS being launched from their launchers. The descripton claims 8 different missiles were launched however the footage only appears to show 2. Despite this, these missiles were launched less than 24 hours after the US official removed restrictions on HIMAR missiles being used to strike targets in Russia. \n \n The next two videos are on slide 3 and 4 and show footage of the Russian Air Defence's S-300 missile systems in Belgarod firing missiles to intercept the HIMARS. Air-raid sirens can also be heard as the missiles travel near civilian areas. Although three flashes can be seen in the second video indicating possible interceptions by the S-300, it is known that a large quantity still got through and hit their intended targets. \n \n at 11:05AM another account on X run by an 'American in Ukraine' posted a tweet stating that 'Russian airfieilds are getting slaughtered by storm shadow missiles in both Belgorod and Kursk (Russia)'. \n \n These unconfirmed Storm Shadow strikes come hours after a BBC report stated that an anonymous military aviation officer stated that France had secretly allowed Ukraine to use their Scalp-EG/Storm Shadow missiles to hit airfields inside of Russia. It is key to note here that France has not officially announced this. \n \n The strikes are recent and due to fog of war and both sides opting to try and maintain operational secrecy and security, reports are few and no public officials on either side have released reports yet other than Russian officials falsly claiming Ukraine had struck the 'Shebekino market in Belgorod', PS01 on X stated. \n \n Additional footage of lots of air defense has been published with unverified claims of the footage being filmed in Belgarod. This video is shown on slide 9. The footage is filmed in the day which could indicate further attacks or could even support claims of more recent Storm Shadow/Scalp-EG strikes on airfields as the HIMARS strikes took place last night when it was dark."
-  },
-  {
-    "id": 15,
-    "title": "Russian breakthrough in Chasiv Yar",
-    "timestamp": 1717344391,
-    "platform": "X + Telegram",
-    "author": "Frontline News",
-    "tags": ["Ukraine War", "Russia", "Ukraine", "Chasiv Yar"],
-    "media": ["image19.jpg"],
-    "content": "New reports have been developing over the last 40 minutes stating that Russian troops have crossed the water canal north of Chasis Yar and took control of most of the village of Kalynivka in the process. \n \n One pro-Russian Telegram channel reports that the Ukranian Armed Forces 'have hundreds of meters of trenches, but there are not enough people in them, which is why the Russian Armed Forces overcame the obstacles without any resistance on the ground'. They added that one of their sources claimed there was 'no Ukranian troops in the trenches, no small arms fire, no mines'. This gain can be attributed to the shortage of shells and ammunition in the Armed Forces of Ukraine. \n \n A trusted and reliable military source, 'Military Summary' posted on their Telegram channel stating that 'the Russians broke through the defenses of the Ukranian armed Forces in Chasiv Yar, crossed the Seversky Donets-Donbass Canal and gained a foothold on the Ukranian side'. In addition to this intel they also provided an insight stating that 'If the Russians manage to hold out for several days and bring up the main forces, then in this case Chasiv Yar will not last even a month'."
-  },
-  {
-    "id": 16,
-    "title": "Swedish student blocks police during anti-Israel protest and gets arrested - video shows",
-    "timestamp": 1717419420,
-    "platform": "X",
-    "author": "Visegrád 24",
-    "tags": ["Israel", "Sweden", "Police", "Israel Gaza Conflict"],
-    "media": ["image20.jpg", "video6.mp4"],
-    "content": "Visegrád has posted footage on their X account showing what they describe as: 'Swedish police arrests an international student near the “Liberated Zone” anti-Israel encampment at Lund University'. The video does in fact show a lady with a megaphone getting arrested by Swedish police. Visegrád also added that 'After first blocking the police van, the student becomes remorseful when she realizes that she will get arrested'."
-  }
+    {
+        "id": 1,
+        "title": "Ukraine strikes oil terminal and ferry crossing in Krasnador",
+        "timestamp": 1717146540,
+        "platform": "X",
+        "author": "Visegr\u00e1d 24",
+        "tags": [
+            "Ukraine War",
+            "Oil",
+            "Military"
+        ],
+        "media": [
+            "image1.jpg"
+        ],
+        "content": "Ukraine has reportedly used Neptune Anti-Ship missiles to strike an oil terminal situated in the Kavkaz port in Russia. The Kavkaz port is the second largest port owned by Russia in the Black Sea. In addition to the port, Ukraine also struck a ferry crossing in the Krasnodar region using the Neptue Anti-Ship missiles. \n \n Nearby in the city of Temryuk an oil depot was also struck by Ukranian drones. "
+    },
+    {
+        "id": 2,
+        "title": "French Government Foil Football Terrorist Attack",
+        "timestamp": 1717166400,
+        "platform": "X",
+        "author": "Visegr\u00e1d 24",
+        "tags": [
+            "Police",
+            "France",
+            "Football",
+            "Olympics"
+        ],
+        "media": [
+            "image2.jpg"
+        ],
+        "content": "A spokesperson from the French government has stated that the police have foiled a planned terror attack against the football matches taking place at this summer's Paris Olympics"
+    },
+    {
+        "id": 3,
+        "title": "Ukraine May Aerial Reconnaissance Attack Statistics",
+        "timestamp": 1717167960,
+        "platform": "X",
+        "author": "BLYSKAVKA",
+        "tags": [
+            "Ukraine War",
+            "Military"
+        ],
+        "media": [
+            "image3.jpg"
+        ],
+        "content": "The commander of the Ground Forces of the Ukranian Armed Forces, Oleksandr Pavliuk, announced on the 31st of May that during the month of May, Air Defense Forces of the Ground Forces of Ukraine destroyed 218 means of aerial reconnaissance and attack belonging to Russia. These are broken down in the graphic displayed above."
+    },
+    {
+        "id": 4,
+        "title": "Some Ukrainian Residents Refusing to Evacuate Kharkiv",
+        "timestamp": 1717168320,
+        "platform": "X",
+        "author": "The Kyiv Independent",
+        "tags": [
+            "Ukraine War",
+            "Kharkiv",
+            "Military"
+        ],
+        "media": [
+            "image4.jpg"
+        ],
+        "content": "Despite the intensifying of attacks on the North-Eastern Ukranian city of Kharkiv by Russia, Some residents on Ukraine's now front-line town are refusing to evacuate. \n \n On May 10th, Russia began a new offensive in the North of Ukraine, with what appears to be an attempt to take Ukraine's second largest city, Kharkiv. Although, Russian troops have not reached the city yet, they have made gains since the start of the new offensive by controlling a confirmed 173.36 km\u00b2 of land in the North and have recently begun shelling the city. \n \n The Kyiv Independent has reported that some residents are refusing to evacuate the city, despite the danger, as they have adopted this war time environment into their way of life. One person reported asking a friend who is a resident of Kharkiv why they haven't left yet, to which they responded that 'I sowed the garden, but I'm in trouble, a rocket fell on the garden. So now I don't sow half the garden because the rocket is sticking out of the ground and it hasn't been neutralized yet. So I don't go close, but sow everything in front of the rocket'. 'That's how they live', the lady told The Counteroffensive, with a smile on her face. \n \n According to the head of the Bilopillia community, Yurii Zarko, it's mostly the elderly who are refusing to leave the city. They often argue that they were born here, this is their land their parents and grandparents lived here, and so they will die here. Some people are also used to living off their farmland and don't want to try living elsewhere, the Kyiv Independent stated."
+    },
+    {
+        "id": 5,
+        "title": "Ukraine has 'never stopped mobilizing' says Zelenskyy",
+        "timestamp": 1717169280,
+        "platform": "X",
+        "author": "The Kyiv Independent",
+        "tags": [
+            "Ukraine War",
+            "Volodymyr Zelenskyy",
+            "Military"
+        ],
+        "media": [
+            "image5.jpg"
+        ],
+        "content": "Zelenskyy states that Ukraine have 'never stopped mobilizing' since the invasion begun but that since the new conscription law came into effect, mobilsation 'has increased'. \n \n These comments come from Ukranian President Zelensky as he spoke in Stockholm today."
+    },
+    {
+        "id": 6,
+        "title": "US Approves use of weaponry in Russia by Ukraine",
+        "timestamp": 1717163040,
+        "platform": "Reuters + X",
+        "author": "Reuters + Anton Gerashchenko",
+        "tags": [
+            "Ukraine War",
+            "USA",
+            "Military"
+        ],
+        "media": [
+            "image6.jpg"
+        ],
+        "content": "U.S. President Joe Biden approved Ukraine using U.S. weapons to strike targets inside Russia that were attacking the Ukrainian city of Kharkiv, after Kyiv sought authorization from Washington in recent weeks, U.S. Secretary of State Antony Blinken confirmed on Friday. Reuters stated. \n \n Front-line news also understands that Antony Blinken, the US Secretary of State has stated that U.S. President Joe Biden approved Ukraine using U.S. weapons to strike targets inside Russia that were attacking the Ukrainian city of Kharkiv. Blinked stated that: \n \n 'Over the past few weeks, Ukraine came to us and asked for the authorization to use weapons that we're providing to defend against this aggression, including against Russian forces that are massing on the Russian side of the border and then attacking into Ukraine. And that went right to the President, and as you've heard, he's approved use of our weapons for that purpose'. \n \n This new policy will allow Ukranian military personnel to fire artillery and short-range rockets from HIMARS rocket launchers against command posts, arms depots, and other assets in Russian territory that are being used by Russian forces to carry out attacks on Kharkiv in northeastern Ukraine. \n \n However, this does not grant Ukraine permission to fire longer-range ATACMS surface-to-surface missiles inside of Russia."
+    },
+    {
+        "id": 7,
+        "title": "North Korea release footage of ballistic missile launch",
+        "timestamp": 1717174980,
+        "platform": "X",
+        "author": "OSINTdefender",
+        "tags": [
+            "North Korea",
+            "Military"
+        ],
+        "media": [
+            "image7.jpg"
+        ],
+        "content": "North Korea have relased a video showing the launch of 18 KN-25 Short-Range Ballistic Missile (SRBM) from Pyongyang International Airport by the 3rd Battalion of 331st Red Flag Artillery Regiment. The missiles were fired towards an Island of the Northeastern coast. \n \n Yesterday it was reported by Yonhap that North Korea had launched 10 Short-Range Ballistic Missiles (SRBM) from Sunan (North of Pyongyang) 217 miles (350 km) East into the East Sea. \n \n Although the motive for these strikes is unclear Yonhap described the launches as tests of 'Saturation Strikes' and as a way of advertising arms for Russia. Front-line news is still investigating the situation and the claims surrounding the motive behind the launches."
+    },
+    {
+        "id": 8,
+        "title": "South Africa election to end three decades of ANC dominance",
+        "timestamp": 1717237232,
+        "platform": "Reuters",
+        "author": "Reuters",
+        "tags": [
+            "Politics",
+            "Elections",
+            "South Africa",
+            "South African Elections"
+        ],
+        "media": [
+            "image8.jpg"
+        ],
+        "content": "South Africa was set to end three decades of African National Congress (ANC) dominance in local elections on Saturday, with the party of Nelson Mandela facing a tough challenge from the opposition Democratic Alliance (DA) and the Economic Freedom Fighters (EFF). \n \n The ANC has been in power since. \n \n Voters are angry at joblessness, inequality and power shortages and as a result the share of vote for the African National Congress fell to 40% from 57.5% from the previous election in 2019."
+    },
+    {
+        "id": 9,
+        "title": "Berlin gives Ukraine permission to fire German weapons into Russia",
+        "timestamp": 1717239522,
+        "platform": "Ground News + The Japan News",
+        "author": "Ground News + The Japan News",
+        "tags": [
+            "Germany",
+            "Military",
+            "Ukraine War"
+        ],
+        "media": [
+            "image9.jpg"
+        ],
+        "content": "Following lead of the United States, Berlin has granted Ukraine permission to use German-supplied weapons to strike targets in Russia. \n \n They stated that Kyiv has the right to defend itself under international law, including through the use of weapons provided by Germany. \n \n The Japan News reported that this move brings a significant policy change as depleted Ukranian troops are loosing ground in the war."
+    },
+    {
+        "id": 10,
+        "title": "Sweden to send 239 PBV 302 IFV to Ukraine",
+        "timestamp": 1717248282,
+        "platform": "Telegram",
+        "author": "Denys Davydov",
+        "tags": [
+            "Ukraine War",
+            "Military",
+            "Sweden"
+        ],
+        "media": [
+            "image10.jpg"
+        ],
+        "content": "The number of PBF 302 IFV that Sweden will deliver to Ukraine has been confirmed to be 239. \n \n  Pansarbandvagn 302 (PBV 302) is an Sweedish made infantry fighting vehicle (IFV). It was commisioned by the Sweedish Army in 1961 as a modern IFV design and could be used to replace the PBV 301 IFV. The IFV weighs around 14 tonnes is 5.35m long, 2.86m wide, and 2.50m in height. It can hold 3 crew (commander, driver, gunner), and hold an additional 8 passengers."
+    },
+    {
+        "id": 11,
+        "title": "Russia uses missiles and drones to target Ukrainian energy facilities",
+        "timestamp": 1717248906,
+        "platform": "Telegram",
+        "author": "Denys Davydov",
+        "tags": [
+            "Ukraine War",
+            "Military",
+            "Drone Strike"
+        ],
+        "media": [
+            "image11.jpg"
+        ],
+        "content": "Last night Russia launched a large strike on Ukranian energy facilities. \n \n Time Line: \n 20:40 - launch of 'Shahed' UAV \n 22:40 - departure of 4 Russian Ty-95 bombers \n 02:20 - launch of cruise missiles type 'X-101/55SM' from Engels district \n \n Denys Davydov a former Ukranian commercial pilot who now publishes daily updates on the war from a Ukranian perspective to his social media said that the strike was 'once again aimed at damaging our energy sector: energy facilities in Zaporizhia, Dnipropetrovsk, Donetsk, Kirovohrad, and Ivano-Frankivsk regions were attacked'. \n \n A spokesperson from the Ukranian Air Force stated that 35/53 missiles were shot down and 46/47 Shaheds were also shot down. However, they also stated that they failed to intercept 5 Kh-101/Kh-555 cruise missiles, 6 Kalibr cruise missiles, 4 Iskander-M ballistic missiles, 3 Kh-59/Kh-69 guided air missiles, and 1 Shahed drone."
+    },
+    {
+        "id": 12,
+        "title": "Heavy police presence due to Tommy Robinson march",
+        "timestamp": 1717262201,
+        "platform": "Telegram",
+        "author": "Denys Davydov",
+        "tags": [
+            "UK",
+            "Police",
+            "Protests"
+        ],
+        "media": [
+            "image12.jpg",
+            "video1.mp4"
+        ],
+        "content": "Sky News reports that there is a heavy police presence in London as the Champions Leage final draws closer. They state in their article that the MET has over 2,000 officers on duty across London today to monitor fan events ahead of the Champions League final at Wembely and at several protests. \n \n Additionally, a protest led my former EDL leader Tommy Robinson is being held at Whitehall under the name 'Stand Up To Racism' at 1pm. The counter-protest to this began at midday. Sky News reports that 'Both protests are ongoing and police have set up a 'buffer zone' between Parliament Square, where Robinson and his supporters have been making speeches, and Downing Street, where the counter protesters are.' \n \n Tommy Robinsons posted on his X account at 2:07PM that 'London is a sea of red, white and blue \ud83d\udc99 \ud83c\uddec\ud83c\udde7' and again later at 2:28PM stating that 'London belongs to us \ud83c\uddec\ud83c\udde7'."
+    },
+    {
+        "id": 13,
+        "title": "Belgium prevent Ukraine from striking targets inside of Russia with F-16 fighter",
+        "timestamp": 1717264837,
+        "platform": "X",
+        "author": "Visegr\u00e1d 24 + Other X Sources",
+        "tags": [
+            "Ukraine War",
+            "Belgium",
+            "Netherlands",
+            "Denmark",
+            "F-16",
+            "Military"
+        ],
+        "media": [
+            "image13.jpg"
+        ],
+        "content": "Belgium has announced that they will not allow Ukraine to use the 30 F-16 fighter jets they provided to strike targets inside of Russia. This includes the area near Kharkiv. \n \n One Pro-Ukranian X account 'Ukraine Battle Map' stated that 'Belgium \ud83c\udde7\ud83c\uddea is living in the \u201cfear of escalation\u201d world that Russia wants'. The same account also stated that despite Belgium's reluctance, the Netherlands and Denmark have given the greenlight for their F-16 fighter jets to be used to strike inside of Russia. "
+    },
+    {
+        "id": 14,
+        "title": "Ukraine uses US supplied HIMARS to strike inside of Russia",
+        "timestamp": 1717334443,
+        "platform": "X + Telegram",
+        "author": "Frontline News",
+        "tags": [
+            "Ukraine War",
+            "Russia",
+            "Ukraine",
+            "HIMARS",
+            "Military"
+        ],
+        "media": [
+            "image18.jpg",
+            "video2.mp4",
+            "video4.mp4",
+            "video5.mp4",
+            "image14.jpg",
+            "image15.jpg",
+            "image16.jpg",
+            "image17.jpg",
+            "video3.mp4"
+        ],
+        "content": "Tendar, a pro-Ukranian account on X stated that 'A Russian supply base in the industrial district of Shebekino, Belgorod Region, Russia, was wiped out this morning. In the debris field,  parts of a missiles can be seen. Russian propaganda initially claimed that a civilian market was hit, but the location is neither civilian nor the debris seen on the pictures'. The images they are referencing are shown on slides 5-8. \n \n Actual footage that has been verified from the strike has been posted online by X account OSINTdefender, this includes three sepereate videos. The first is shown on slide 2 and shows a short clip of HIMARS being launched from their launchers. The descripton claims 8 different missiles were launched however the footage only appears to show 2. Despite this, these missiles were launched less than 24 hours after the US official removed restrictions on HIMAR missiles being used to strike targets in Russia. \n \n The next two videos are on slide 3 and 4 and show footage of the Russian Air Defence's S-300 missile systems in Belgarod firing missiles to intercept the HIMARS. Air-raid sirens can also be heard as the missiles travel near civilian areas. Although three flashes can be seen in the second video indicating possible interceptions by the S-300, it is known that a large quantity still got through and hit their intended targets. \n \n at 11:05AM another account on X run by an 'American in Ukraine' posted a tweet stating that 'Russian airfieilds are getting slaughtered by storm shadow missiles in both Belgorod and Kursk (Russia)'. \n \n These unconfirmed Storm Shadow strikes come hours after a BBC report stated that an anonymous military aviation officer stated that France had secretly allowed Ukraine to use their Scalp-EG/Storm Shadow missiles to hit airfields inside of Russia. It is key to note here that France has not officially announced this. \n \n The strikes are recent and due to fog of war and both sides opting to try and maintain operational secrecy and security, reports are few and no public officials on either side have released reports yet other than Russian officials falsly claiming Ukraine had struck the 'Shebekino market in Belgorod', PS01 on X stated. \n \n Additional footage of lots of air defense has been published with unverified claims of the footage being filmed in Belgarod. This video is shown on slide 9. The footage is filmed in the day which could indicate further attacks or could even support claims of more recent Storm Shadow/Scalp-EG strikes on airfields as the HIMARS strikes took place last night when it was dark."
+    },
+    {
+        "id": 15,
+        "title": "Russian breakthrough in Chasiv Yar",
+        "timestamp": 1717344391,
+        "platform": "X + Telegram",
+        "author": "Frontline News",
+        "tags": [
+            "Ukraine War",
+            "Russia",
+            "Ukraine",
+            "Chasiv Yar"
+        ],
+        "media": [
+            "image19.jpg"
+        ],
+        "content": "New reports have been developing over the last 40 minutes stating that Russian troops have crossed the water canal north of Chasis Yar and took control of most of the village of Kalynivka in the process. \n \n One pro-Russian Telegram channel reports that the Ukranian Armed Forces 'have hundreds of meters of trenches, but there are not enough people in them, which is why the Russian Armed Forces overcame the obstacles without any resistance on the ground'. They added that one of their sources claimed there was 'no Ukranian troops in the trenches, no small arms fire, no mines'. This gain can be attributed to the shortage of shells and ammunition in the Armed Forces of Ukraine. \n \n A trusted and reliable military source, 'Military Summary' posted on their Telegram channel stating that 'the Russians broke through the defenses of the Ukranian armed Forces in Chasiv Yar, crossed the Seversky Donets-Donbass Canal and gained a foothold on the Ukranian side'. In addition to this intel they also provided an insight stating that 'If the Russians manage to hold out for several days and bring up the main forces, then in this case Chasiv Yar will not last even a month'."
+    },
+    {
+        "id": 16,
+        "title": "Swedish studentsws blocks police during anti-Israel protest and gets arrested - video shows",
+        "timestamp": 1717419420,
+        "platform": "X",
+        "author": "Visegr\u00e1d 24",
+        "tags": [
+            "Israel",
+            "Sweden",
+            "Police",
+            "Israel Gaza Conflict"
+        ],
+        "media": [
+            "image20.jpg",
+            "video6.mp4",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1200px-Cat_August_2010-4.jpg"
+        ],
+        "content": "Visegr\u00e1d has posted footage on their X account showing what they describe as: 'Swedish police arrests an international student near the \u201cLiberated Zone\u201d anti-Israel encampment at Lund University'. The video does in fact show a lady with a megaphone getting arrested by Swedish police. Visegr\u00e1d also added that 'After first blocking the police van, the student becomes remorseful when she realizes that she will get arrested'."
+    },
+    {
+        "id": 17,
+        "title": "Move to home education biggest since pandemic",
+        "timestamp": 1717372670,
+        "platform": "BBC",
+        "author": "Alix Hattenstone",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image21.jpg"
+        ],
+        "content": "A BBC investigation has found the number of children moving to home education in the UK is at its highest level since the pandemic."
+    },
+    {
+        "id": 18,
+        "title": "Labour plans apprenticeship funding shake-up",
+        "timestamp": 1717273906,
+        "platform": "BBC",
+        "author": "Josh Parry",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image22.jpg"
+        ],
+        "content": "Labour is promising to give businesses more flexibility over how they spend government money currently earmarked for apprenticeships if they win the July election."
+    },
+    {
+        "id": 19,
+        "title": "Magic moment for five generations of same family",
+        "timestamp": 1717206780,
+        "platform": "BBC",
+        "author": "",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image23.jpg"
+        ],
+        "content": ""
+    },
+    {
+        "id": 20,
+        "title": "Nigerian students seeking help from food charity",
+        "timestamp": 1717128102,
+        "platform": "BBC",
+        "author": "Joanna Morris",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image24.jpg"
+        ],
+        "content": "Nigerian students hit by a financial crisis make up the majority of clients at a food charity, its manager has said."
+    },
+    {
+        "id": 21,
+        "title": "Tax online giants to help kids' mental health, say Lib Dems",
+        "timestamp": 1717054275,
+        "platform": "BBC",
+        "author": "Kate McGough",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image25.jpg"
+        ],
+        "content": "The Liberal Democrats have said they would increase taxes on social media giants and companies like Amazon and Google to fund mental health professionals for all England's state schools, if they win the general election. "
+    },
+    {
+        "id": 22,
+        "title": "\u2018Aposiopesis\u2019: Watch 12-year-old win US Spelling Bee",
+        "timestamp": 1717132299,
+        "platform": "BBC",
+        "author": "",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image26.jpg"
+        ],
+        "content": ""
+    },
+    {
+        "id": 23,
+        "title": "Tories would swap 'rip-off' degrees for apprenticeships",
+        "timestamp": 1717000205,
+        "platform": "BBC",
+        "author": "Hazel Shearing",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image27.jpg"
+        ],
+        "content": "The Conservatives have promised to scrap some university courses in England to help fund 100,000 apprenticeships per year if they win the July election."
+    },
+    {
+        "id": 24,
+        "title": "How much does uni cost, and will I earn more if I go?",
+        "timestamp": 1715934726,
+        "platform": "BBC",
+        "author": "By Hazel Shearing",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image28.jpg"
+        ],
+        "content": "Exams are under way, with hundreds of thousands of students hoping to secure a place at university."
+    },
+    {
+        "id": 25,
+        "title": "Your guide to this year's A-level exams and results day",
+        "timestamp": 1715583408,
+        "platform": "BBC",
+        "author": "By Vanessa Clarke",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image29.jpg"
+        ],
+        "content": "Exam season is under way for A-level students in England, Wales and Northern Ireland. "
+    },
+    {
+        "id": 26,
+        "title": "GCSE grades: The 9-1 boundaries explained",
+        "timestamp": 1714729864,
+        "platform": "BBC",
+        "author": "",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image30.jpg"
+        ],
+        "content": "GCSE students in England, Wales and Northern Ireland "
+    },
+    {
+        "id": 27,
+        "title": "What are T-levels and what are the grades worth?",
+        "timestamp": 1715353729,
+        "platform": "BBC",
+        "author": "By Nathan Standley",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image31.jpg"
+        ],
+        "content": "With exam season under way in schools and colleges, Year 11s might be thinking about what to do once GCSEs and BTecs are over. "
+    },
+    {
+        "id": 28,
+        "title": "What dates are GCSE exams and when is results day 2024?",
+        "timestamp": 1715326210,
+        "platform": "BBC",
+        "author": "By Vanessa Clarke",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image32.jpg"
+        ],
+        "content": "Exam season has begun for hundreds of thousands of GCSE students in England, Northern Ireland and Wales."
+    },
+    {
+        "id": 29,
+        "title": "What are BTecs and how are they graded?",
+        "timestamp": 1714739943,
+        "platform": "BBC",
+        "author": "By Vanessa Clarke",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image33.jpg"
+        ],
+        "content": "BTec exams have started for hundreds of thousands of students in the UK."
+    },
+    {
+        "id": 30,
+        "title": "Everything you need to know about student loans",
+        "timestamp": 1715593142,
+        "platform": "BBC",
+        "author": "",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image34.jpg"
+        ],
+        "content": "Students hoping to start university in September are being urged to apply for their loans by Friday, to guarantee they have the money by the start of term. "
+    },
+    {
+        "id": 31,
+        "title": "Why am I dreaming I have an exam I didn't study for?",
+        "timestamp": 1717025909,
+        "platform": "BBC",
+        "author": "Hazel Shearing",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image35.jpg"
+        ],
+        "content": "This time next year, Oluwatosin, 17, will be taking his A-levels at Leeds Sixth Form College. "
+    },
+    {
+        "id": 32,
+        "title": "How afternoon tea helps inmates learn life skills",
+        "timestamp": 1717311940,
+        "platform": "BBC",
+        "author": "Adriana Elgueta",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image36.jpg"
+        ],
+        "content": "Working towards a Duke of Edinburgh (DofE) award can conjure up an image of teenagers hiking and camping in the mountains rather than preparing afternoon tea."
+    },
+    {
+        "id": 33,
+        "title": "The 85-year-old student doing her fourth degree",
+        "timestamp": 1716869630,
+        "platform": "BBC",
+        "author": "Maisie Lillywhite",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image37.jpg"
+        ],
+        "content": "An 85-year-old student who is working towards her fourth university degree says she \"can't just sit around\"."
+    },
+    {
+        "id": 34,
+        "title": "'I've only caught three exam cheats in 25 years'",
+        "timestamp": 1716956091,
+        "platform": "BBC",
+        "author": "Joanne MacAulay",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image38.jpg"
+        ],
+        "content": "When the last exam of the Scottish 2024 exam diet - Gaelic Nat 5 listening - ends later, candidates, teachers and parents across the country will breathe a sigh of relief. "
+    },
+    {
+        "id": 35,
+        "title": "'Why now?' UK teens respond to Tory national service scheme",
+        "timestamp": 1716837013,
+        "platform": "BBC",
+        "author": "Anna Lamche",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image39.jpg"
+        ],
+        "content": "Over the weekend the Conservatives launched an election pledge that got people talking - the idea of getting 18-year-olds to "
+    },
+    {
+        "id": 36,
+        "title": "What are the priorities for Wales's new education minister?",
+        "timestamp": 1715507876,
+        "platform": "BBC",
+        "author": "Cemlyn Davies",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image40.jpg"
+        ],
+        "content": "\"How hard is your job?\""
+    },
+    {
+        "id": 37,
+        "title": "What do children learn in sex education?",
+        "timestamp": 1715857233,
+        "platform": "BBC",
+        "author": "By Christina McSorley & Elaine Dunkley",
+        "tags": [
+            "Education",
+            "BBC News"
+        ],
+        "media": [
+            "image41.jpg"
+        ],
+        "content": "English schools should not teach under-nines about sex, or discuss gender identity, under new draft guidance from the government."
+    }
 ]
